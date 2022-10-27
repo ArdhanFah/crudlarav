@@ -15,23 +15,23 @@
                 @method('PUT')
                     <div class="col12">
                       <label for="inputnama" class="form-label">nama</label>
-                      <input type="text" class="form-control" value={{$data->nama}} name="nama" id="inputnama">
+                      <input type="text" class="form-control" value="{{$data->nama}}" name="nama" id="inputnama">
                     </div>
                     <div class="col-md-6">
                       <label for="inputnim" class="form-label">nim</label>
-                      <input type="number" class="form-control" value={{$data->nim}} class="nim" id="inputnim">
+                      <input type="number" class="form-control" value="{{$data->nim}}" class="nim" id="inputnim">
                     </div>
                     <div class="col-md-6">
                       <label for="inputJurusan" class="form-label">Jurusan</label>
-                      <input type="text" class="form-control"  value={{$data->jurusan}} name="jurusan" id="inputJusuan">
+                      <input type="text" class="form-control"  value="{{$data->jurusan}}" name="jurusan" id="inputJusuan">
                     </div>
                     <div class="col-12">
                       <label for="inputAddress" class="form-label">Address</label>
-                      <input type="text" class="form-control" value={{$data->alamat}} name="alamat" id="inputAddress" placeholder="Isikan alamat rumahmu">
+                      <input type="text" class="form-control" value="{{$data->alamat}}" name="alamat" id="inputAddress" placeholder="Isikan alamat rumahmu">
                     </div>
                     <div class="col-md-6">
                       <label for="inputdate" class="form-label">Tanggal Lahir</label>
-                      <input type="date" class="form-control" value={{$data->tanggal}} name="tanggal" id="inputdate">
+                      <input type="date" class="form-control" value="{{$data->tanggal}}" name="tanggal" id="inputdate">
                     </div>
                     <div class="col-md-6">
                         <label for="inputfoto" class="form-label">Foto Mahasiswa</label>
@@ -46,3 +46,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
+"
